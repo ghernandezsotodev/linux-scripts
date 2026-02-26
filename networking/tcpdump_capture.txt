@@ -1,0 +1,68 @@
+16:04:49.348192 lo    In  IP6 ip6-localhost.34192 > ip6-localhost.http: Flags [S], seq 1531997718, win 65476, options [mss 65476,sackOK,TS val 4125054030 ecr 0,nop,wscale 7], length 0
+`..z.(.@...................................P[Pn..........0.........
+..TN........
+16:04:49.348216 lo    In  IP6 ip6-localhost.http > ip6-localhost.34192: Flags [S.], seq 293433817, ack 1531997719, win 65464, options [mss 65476,sackOK,TS val 4125054030 ecr 4125054030,nop,wscale 7], length 0
+`....(.@.................................P...}q.[Pn......0.........
+..TN..TN....
+16:04:49.348265 lo    In  IP6 ip6-localhost.34192 > ip6-localhost.http: Flags [.], ack 1, win 512, options [nop,nop,TS val 4125054030 ecr 4125054030], length 0
+`..z. .@...................................P[Pn..}q......(.....
+..TN..TN
+16:04:49.348396 lo    In  IP6 ip6-localhost.34192 > ip6-localhost.http: Flags [P.], seq 1:73, ack 1, win 512, options [nop,nop,TS val 4125054030 ecr 4125054030], length 72: HTTP: GET / HTTP/1.1
+`..z.h.@...................................P[Pn..}q......p.....
+..TN..TNGET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.5.0
+Accept: */*
+
+
+16:04:49.348405 lo    In  IP6 ip6-localhost.http > ip6-localhost.34192: Flags [.], ack 73, win 511, options [nop,nop,TS val 4125054030 ecr 4125054030], length 0
+`.... .@.................................P...}q.[Pn_.....(.....
+..TN..TN
+16:04:49.349579 lo    In  IP6 ip6-localhost.http > ip6-localhost.34192: Flags [P.], seq 1:863, ack 73, win 512, options [nop,nop,TS val 4125054031 ecr 4125054030], length 862: HTTP: HTTP/1.1 200 OK
+`....~.@.................................P...}q.[Pn_...........
+..TO..TNHTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Thu, 26 Feb 2026 19:04:49 GMT
+Content-Type: text/html
+Content-Length: 615
+Last-Modified: Tue, 24 Feb 2026 23:19:45 GMT
+Connection: keep-alive
+ETag: "699e3211-267"
+Accept-Ranges: bytes
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+
+16:04:49.349611 lo    In  IP6 ip6-localhost.34192 > ip6-localhost.http: Flags [.], ack 863, win 506, options [nop,nop,TS val 4125054031 ecr 4125054031], length 0
+`..z. .@...................................P[Pn_.}u8.....(.....
+..TO..TO
+16:04:49.349833 lo    In  IP6 ip6-localhost.34192 > ip6-localhost.http: Flags [F.], seq 73, ack 863, win 506, options [nop,nop,TS val 4125054032 ecr 4125054031], length 0
+`..z. .@...................................P[Pn_.}u8.....(.....
+..TP..TO
+16:04:49.349887 lo    In  IP6 ip6-localhost.http > ip6-localhost.34192: Flags [F.], seq 863, ack 74, win 512, options [nop,nop,TS val 4125054032 ecr 4125054032], length 0
+`.... .@.................................P...}u8[Pn`.....(.....
+..TP..TP
+16:04:49.349908 lo    In  IP6 ip6-localhost.34192 > ip6-localhost.http: Flags [.], ack 864, win 506, options [nop,nop,TS val 4125054032 ecr 4125054032], length 0
+`..z. .@...................................P[Pn`.}u9.....(.....
+..TP..TP
